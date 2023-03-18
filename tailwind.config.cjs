@@ -1,9 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: ["./src/**/*.{html,js,jsx}", "./public/**/*.{html,js,jsx}"],
   mode: "jit",
   theme: {
     extend: {
+      fontFamily: {
+        cartoon: ['"Press Start 2P"', "cursive"],
+        roboto: ["Roboto", "sans-serif"],
+        ubuntu: ["Ubuntu", "sans-serif"],
+        noto: ['"Noto Sans"', "sans-serif"],
+        edu: ["'Edu NSW ACT Foundation'", "cursive"],
+      },
       colors: {
         primary: "#050816",
         secondary: "#aaa6c3",

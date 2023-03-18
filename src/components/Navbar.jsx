@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { navLinks } from "../constants/constants";
 import { close, menu } from "../../../portfolio/src/assets";
 import SocialLinks from "./SocialLinks";
@@ -14,14 +13,7 @@ function Navbar() {
       </div>
 
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        <Link
-          to="/"
-          className="flex item-center gap-2"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        ></Link>
+        <div></div>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
@@ -45,9 +37,9 @@ function Navbar() {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl border border-white-100 justify-center pt-4 pb-4`}
           >
-            <ul className="list-none flex flex-col gap-4 justify-end items-start">
+            <ul className="list-none flex flex-col gap-4 justify-end items-start ">
               {navLinks.map((link) => (
                 <li
                   key={link.id}

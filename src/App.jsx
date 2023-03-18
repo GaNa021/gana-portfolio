@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { Navbar, Hero, About, Works } from "./components";
+import { Navbar, Hero, About, Works, Tech } from "./components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <Tech />
         <Works />
       </BrowserRouter>
     </div>
