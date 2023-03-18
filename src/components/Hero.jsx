@@ -58,6 +58,9 @@ function Hero() {
             </a>
           </div>
         </motion.div>
+        <div className="sm:hidden flex">
+          <SocialLinks Styles="list-none flex flex-row gap-4 justify-end items-start" />
+        </div>
       </div>
     </div>
   );

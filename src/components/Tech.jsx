@@ -12,10 +12,9 @@ function Tech() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
       >
-        <h1 className="absoulte top-24 uppercase tracking-[20px] font-bold text-[34px] hover:text-gray-500 cursor-default">
+        <h1 className="absoulte top-24 tracking-widest font-bold text-5xl hover:text-gray-500 cursor-default">
           Skills
         </h1>
-        <br />
         <br />
         <br />
         <div className="grid grid-cols-4 gap-5">

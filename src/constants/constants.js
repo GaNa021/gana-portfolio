@@ -37,6 +37,11 @@ export const socialLinks = [
     icon: "../src/assets/twitter.svg",
     link: "https://twitter.com/_g4na_",
   },
+  {
+    id: "instagram",
+    icon: "../src/assets/insta.svg",
+    link: "https://instagram.com/ig.gana",
+  },
 ];
 
 export const TechIcons = [

@@ -9,7 +9,6 @@ function App() {
         <Hero />
         <About />
         <Tech />
-        <Works />
       </BrowserRouter>
     </div>
   );
