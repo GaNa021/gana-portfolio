@@ -16,7 +16,7 @@ function Navbar() {
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-slate-400"
-              } hover:text-white font-sans p-1 text-[18px] font-medium cursor-pointer`}
+              } hover:text-white font-sans p-1 text-[18px] font-medium cursor-pointer hover:text-[19px]`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
@@ -33,7 +33,7 @@ function Navbar() {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl border border-white-100 justify-center pt-4 pb-4`}
+            } absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl shadow drop-shadow-lg shadow-white-100 justify-center pt-4 pb-4 bg-gradient-to-b`}
           >
             <ul className="list-none flex flex-col gap-4 justify-end items-start ">
               {navLinks.map((link) => (

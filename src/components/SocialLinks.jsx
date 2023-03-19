@@ -19,7 +19,11 @@ function SocialLinks({ Styles }) {
             }}
           >
             <a target="_blank" href={`${link.link}`}>
-              <img src={`${link.icon}`} alt="icon" className="w-36 h-12" />
+              <img
+                src={`${link.icon}`}
+                alt="icon"
+                className="w-10 h-10 sm:w-36 sm:h-12"
+              />
             </a>
           </motion.div>
         </li>

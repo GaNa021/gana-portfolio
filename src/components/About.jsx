@@ -10,11 +10,11 @@ function About() {
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 1 }}
       >
         <div className="grid grid-flow-col items-end sm:gap-96">
           <p className={`${styles.sectionHeadText}`}>About</p>
-          <img src="src/assets/dev-vector.png" alt="" className="h-44" />
+          <img src="public/assets/dev-vector.png" alt="" className="h-44" />
         </div>
         <div className="font-noto font-medium">
           <p>

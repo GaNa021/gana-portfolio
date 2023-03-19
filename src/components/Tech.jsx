@@ -17,7 +17,7 @@ function Tech() {
         </h1>
         <br />
         <br />
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-4 gap-4">
           {TechIcons.map((Tech) => {
             return (
               <Skill key={Tech.title} title={Tech.title} icon={Tech.icon} />

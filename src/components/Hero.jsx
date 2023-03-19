@@ -17,11 +17,11 @@ function Hero() {
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
-          whileHover={{ scale: 1.3 }}
+          whileHover={{ scale: 1.2 }}
         >
-          <div className="w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] rounded-full overflow-hidden shadow-lg shadow-blur shadow-slate-300">
+          <div className="w-[225px] h-[225px] sm:w-[350px] sm:h-[350px] rounded-full overflow-hidden shadow-lg shadow-blur shadow-slate-400">
             <img
-              src="src\assets\self.jpeg"
+              src="\assets\self.jpeg"
               alt="hero-img"
               className="w-full h-full object-cover"
             />
@@ -30,7 +30,7 @@ function Hero() {
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 3 }}
+          transition={{ duration: 1.5 }}
         >
           <div className="font-semibold sm:text-[1.25rem] mb-4">
             Software Developer
@@ -44,7 +44,7 @@ function Hero() {
           </p>
           <div className="flex mt-4 gap-10">
             <a
-              href="/src/assets/Resume-Harsha.pdf"
+              href="/assets/Resume-Harsha.pdf"
               className="py-2 px-4 border-x-[0.01rem] hover:border-[0.01rem] text-[1rem] rounded-[2.2rem] shadow-md hover:bg-gradient-to-bl from-gray-600"
               download={true}
             >

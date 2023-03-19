@@ -24,22 +24,22 @@ export const navLinks = [
 export const socialLinks = [
   {
     id: "github",
-    icon: "../src/assets/github.svg",
+    icon: "../../public/assets/github.svg",
     link: "https://github.com/GaNa021",
   },
   {
     id: "linkedin",
-    icon: "../src/assets/linkedin.svg",
+    icon: "../../public/assets/linkedin.svg",
     link: "https://www.linkedin.com/in/harsha-vardhan-4051441b7",
   },
   {
     id: "twitter",
-    icon: "../src/assets/twitter.svg",
+    icon: "../../public/assets/twitter.svg",
     link: "https://twitter.com/_g4na_",
   },
   {
     id: "instagram",
-    icon: "../src/assets/insta.svg",
+    icon: "../../public/assets/insta.svg",
     link: "https://instagram.com/ig.gana",
   },
 ];
@@ -47,61 +47,61 @@ export const socialLinks = [
 export const TechIcons = [
   {
     title: "Java",
-    icon: "../src/assets/java.png",
+    icon: "../../public/assets/java.png",
   },
   {
     title: "JS",
-    icon: "../src/assets/js.png",
+    icon: "../../public/assets/js.png",
   },
   {
     title: "React.JS",
-    icon: "../src/assets/react.png",
+    icon: "../../public/assets/react.png",
   },
   {
     title: "Tailwind CSS",
-    icon: "../src/assets/tailwind-css.png",
+    icon: "../../public/assets/tailwind-css.png",
   },
   {
     title: "Node JS",
-    icon: "../src/assets/node-js.png",
+    icon: "../../public/assets/node-js.png",
   },
   {
     title: "Mysql",
-    icon: "../src/assets/mysql.png",
+    icon: "../../public/assets/mysql.png",
   },
   {
     title: "Mongo DB",
-    icon: "../src/assets/mongo-db.png",
+    icon: "../../public/assets/mongo-db.png",
   },
   {
     title: "Rest API",
-    icon: "../src/assets/rest-api.png",
+    icon: "../../public/assets/rest-api.png",
   },
   {
     title: "Java Swing",
-    icon: "../src/assets/java-swing.png",
+    icon: "../../public/assets/java-swing.png",
   },
   {
     title: "JSP",
-    icon: "../src/assets/jsp.png",
+    icon: "../../public/assets/jsp.png",
   },
 ];
 
 export const Interests = [
   {
     title: "books",
-    icon: "../src/assets/books.svg",
+    icon: "../../public/assets/books.svg",
   },
   {
     title: "Music",
-    icon: "../src/assets/music.svg",
+    icon: "../../public/assets/music.svg",
   },
   {
     title: "Chess",
-    icon: "../src/assets/chess.svg",
+    icon: "../../public/assets/chess.svg",
   },
   {
     title: "Games",
-    icon: "../src/assets/games.svg",
+    icon: "../../public/assets/games.svg",
   },
 ];
